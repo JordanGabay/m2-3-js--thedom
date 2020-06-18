@@ -1,18 +1,18 @@
 const frogStable = [
   {
-    name: 'Hopper',
-    color: 'blue',
-    number: '32',
+    name: 'Jordan',
+    color: 'grey',
+    number: '12',
   },
   {
-    name: 'Legs',
-    color: 'red',
-    number: '79',
+    name: 'Kobe',
+    color: 'purple',
+    number: '24',
   },
   {
-    name: 'Bouncer',
-    color: 'brown',
-    number: '6',
+    name: 'MJ',
+    color: 'Red',
+    number: '23',
   },
   {
     name: 'Springs',
