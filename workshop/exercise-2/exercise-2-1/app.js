@@ -4,7 +4,7 @@ let racers = [];
 
 const track = document.getElementById('track');
 
-//Exercise 2.1//
+//Exercise 2.1 - Set up the track so the frogs can enter//
 
 for (let  laneNumber= 1; laneNumber <= FROGS; laneNumber++) {
     const lane = document.createElement('li');
@@ -17,7 +17,7 @@ for (let  laneNumber= 1; laneNumber <= FROGS; laneNumber++) {
     lane.id = `frog-${laneNumber}`;
 }
 
-//Exercise 2.2//
+//Exercise 2.2 - Call in the Frogs!/
 
 for (let i = 0; i < FROGS; i++) {
     const froggies = frogStable[i]
@@ -26,7 +26,7 @@ for (let i = 0; i < FROGS; i++) {
 
 console.log(racers);
 
-//Exercise 2.3//
+//Exercise 2.3 - Time to make sure they can be displayed//
 
 
 racers.forEach(function (racer, id) {
